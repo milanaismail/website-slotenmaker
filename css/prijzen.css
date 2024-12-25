@@ -54,7 +54,7 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 
     gap: 1.25rem;
   }
@@ -180,6 +180,11 @@
     grid-column: span 1;
     grid-row: span 1;
   }
+
+  #reviews-607 .cs-card-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
